@@ -40,15 +40,18 @@ public class BankingApplication{
 					default:
 						System.out.println("Invalid number");
 						break;
-}
+                                                                                }
 				}
-			}catch(Exception e){
+                                                      }
+			catch(Exception e){
 				e.printStackTrace();
 			}
-		}else
-			System.exit(0);
+		}
+                                      else {
 			System.out.println("Invalid login credentials");
+                                                     System.exit(0);
 	}
+              }
 
 		private static int withdraw(int amount) {
 		
