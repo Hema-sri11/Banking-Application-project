@@ -1,15 +1,15 @@
-import java.io.*;
 import java.util.*;
+import java.io.*;
 public class BankingApplication{
    public static void main(String[] args) {
 		int amount=20000;
 		final String Accno= "12Ae7b";
-                                   final String password= "Hemasri@11";
-                                   Scanner sc=new Scanner(System.in);
+                final String password= "Hemasri@11";
+                Scanner sc=new Scanner(System.in);
 		System.out.println("Enter your Account number:");
-                                   String AcNo=sc.next();
-                                   System.out.println("Enter your password:");
-                                   String pwd=sc.next();
+                String AcNo=sc.next();
+                System.out.println("Enter your password:");
+                String pwd=sc.next();
 		if(Accno.equals(AcNo)&&password.equals(pwd))
 		{		
 			try {
